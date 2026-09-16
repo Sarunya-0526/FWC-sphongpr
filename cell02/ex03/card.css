@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.card {
+    background-color: #ffffff;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+}
+
+.profile-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+}
+
+.profile-table td {
+    padding: 14px 20px; 
+    border: none;
+}
+
+.profile-table td.img-cell {
+    padding: 0;
+}
+
+.profile-img {
+    width: 100%;
+    height: 280px; 
+    object-fit: cover;
+    display: block;
+}
+
+.user-login {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #222;
+    padding-top: 16px;
+}
+
+.user-desc {
+    font-size: 0.9rem;
+    color: #777;
+    margin: 0;
+}
+
+.social-icons img {
+    width: 20px;
+    height: 20px;
+    margin: 0 6px;
+    opacity: 0.8;
+    transition: opacity 0.2s, transform 0.2s;
+    vertical-align: middle;
+}
+
+.social-icons img:hover {
+    opacity: 1;
+    transform: scale(1.15);
+}
+
+.contact-btn-cell {
+    padding: 0 !important;
+}
+
+.contact-btn {
+    display: block;
+    width: 100%;
+    background-color: #111111;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 0;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.contact-btn:hover {
+    background-color: #AFEEEE;
+    color: #222;
+}
