@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.parallax-1 {
+    background-image: url('https://cdn-live.warthunder.com/uploads/a2/1f/0f/73f3e7ae908939afa78d6b1c028bab6cf4/War+Thunder+Super-Resolution+2025.11.27+-+17.18.10.73.jpg');
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black-block {
+    min-height: 400px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax-2 {
+    background-image: url('https://media.moddb.com/images/downloads/1/214/213631/Sols.png');
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
