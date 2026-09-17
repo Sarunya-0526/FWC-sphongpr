@@ -1,0 +1,293 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* ================= HERO ================= */
+
+.hero {
+    min-height: 100vh;
+
+    padding-top: 120px;
+    padding-bottom: 80px;
+
+    display: flex;
+    align-items: center;
+
+    background:
+        linear-gradient(
+            135deg,
+            #eaf2ff,
+            #ffffff
+        );
+}
+
+
+.profile-image {
+    width: 280px;
+    height: 280px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 8px solid white;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+
+.hello {
+    color: #0d6efd;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+}
+
+
+.hero h1 {
+    font-size: 60px;
+    font-weight: bold;
+
+    margin-bottom: 10px;
+}
+
+
+.hero h3 {
+    color: #555;
+
+    margin-bottom: 25px;
+}
+
+
+.about-text {
+    max-width: 600px;
+
+    color: #666;
+
+    line-height: 1.8;
+
+    margin-bottom: 30px;
+}
+
+
+/* ================= SECTION ================= */
+
+.section {
+    padding: 90px 0;
+}
+
+
+.section-title {
+    text-align: center;
+
+    font-weight: bold;
+
+    font-size: 40px;
+
+    margin-bottom: 50px;
+}
+
+
+.section-title::after {
+    content: "";
+
+    display: block;
+
+    width: 60px;
+    height: 4px;
+
+    background: #0d6efd;
+
+    margin: 15px auto;
+}
+
+
+/* ================= EDUCATION ================= */
+
+.education-card {
+    max-width: 800px;
+
+    margin: auto;
+
+    border: none;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+
+/* ================= SKILLS ================= */
+
+.skill-card {
+    background: white;
+
+    text-align: center;
+
+    padding: 35px;
+
+    border-radius: 15px;
+
+    height: 100%;
+
+    box-shadow:
+        0 8px 25px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+}
+
+
+.skill-card:hover {
+    transform: translateY(-8px);
+}
+
+
+.skill-card i {
+    font-size: 45px;
+
+    color: #0d6efd;
+
+    margin-bottom: 20px;
+}
+
+
+.skill-card p {
+    line-height: 2;
+
+    color: #666;
+}
+
+/* ================= CONTACT ================= */
+
+.contact-section {
+    padding: 90px 0;
+
+    background: #212529;
+
+    color: white;
+}
+
+
+.contact-section h2 {
+    font-size: 40px;
+
+    margin-bottom: 15px;
+}
+
+
+.contact-section p {
+    color: #ccc;
+}
+
+
+.social-links {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    margin-top: 30px;
+}
+
+
+.social-links a {
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 18px;
+
+    transition: 0.3s;
+}
+
+
+.social-links a:hover {
+    color: #0d6efd;
+}
+
+
+.social-links i {
+    margin-right: 8px;
+}
+
+
+/* ================= FOOTER ================= */
+
+footer {
+    background: #111;
+
+    color: #aaa;
+
+    text-align: center;
+
+    padding: 20px;
+}
+
+
+footer p {
+    margin: 0;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+
+    .hero {
+        text-align: center;
+
+        padding-top: 120px;
+    }
+
+
+    .profile-image {
+        width: 200px;
+        height: 200px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+
+    .hero h3 {
+        font-size: 22px;
+    }
+
+
+    .about-text {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .section {
+        padding: 70px 20px;
+    }
+
+
+    .section-title {
+        font-size: 32px;
+    }
+
+
+    .social-links {
+        flex-direction: column;
+
+        gap: 15px;
+    }
+
+}
